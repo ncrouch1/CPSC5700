@@ -1,0 +1,15 @@
+[project]
+name = "hw5"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "glfw>=2.11.0",
+    "numpy>=2.5.5",
+    "pillow>=13.0.0",
+    "pyopengl>=3.1.10",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
